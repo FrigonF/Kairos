@@ -1,0 +1,3 @@
+# Git Large File Storage (LFS) attributes
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.nc filter=lfs diff=lfs merge=lfs -text
