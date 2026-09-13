@@ -30,7 +30,7 @@
 3. **Characterization Engine**: Computes morphological invariants (slick surface area, perimeter, compactness, eccentricity, fractal dimension) and estimates slick age/weathering using Mackay evaporative exposure models.
 4. **Module M4 (Ocean Current Advection Engine)**: Performs 4th-Order Runge-Kutta (RK4) Lagrangian backward advection (hindcast) and forward advection (forecast) using sampled NetCDF vector fields (`TEST_OCEAN_001.nc`).
 5. **Module M3 (AIS Vessel Telemetry & Correlation)**: Interfaces with live Pelyr HTTPS AIS services to query regional vessel traffic and ranks candidate vessels based on spatio-temporal proximity to the reconstructed discharge origin.
-6. **Forensic Report Generator**: Compiles an official legal dossier summarizing detection geometry, hydrodynamic advection vectors, vessel candidate rankings, and statutory MARPOL Annex I references.
+6. **Forensic Report Generator**: Compiles an investigation-ready evidence report summarizing detection geometry, hydrodynamic advection, vessel candidate rankings, and relevant MARPOL Annex I references.
 
 ---
 
