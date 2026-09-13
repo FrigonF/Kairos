@@ -104,3 +104,7 @@ Open your browser and navigate to `http://localhost:8000`.
 * **Validation Dice Score Warning**: The included M2 PyTorch U-Net model checkpoint has a validation Dice score of **7.94%**. It exhibits high false-positive rates on low-backscatter oceanic features (wind-shadow dark spots, natural oil seeps, low-wind sea surface anomalies). Detection outputs MUST be validated with ocean drift vectors and AIS traffic analysis.
 * **Probabilistic Attribution**: Vessel rankings represent **evidence-based vessel candidate rankings** derived from spatial proximity to the probable spill origin. KAIROS V2 does not claim legally proven vessel responsibility or 100% attribution certainty without physical chemical fingerprinting samples.
 * **Hydrodynamic Resolution**: M4 RK4 advection calculations rely on interpolated surface current vectors. Sub-grid turbulence, local coastal bathymetry, and micro-scale wave action introduce spatial uncertainty margins.
+
+## Team Members:
+1) Lakshay Dixit
+2) Istuti Gusain
